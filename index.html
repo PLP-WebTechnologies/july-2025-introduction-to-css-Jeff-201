@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>week 2 -enhanced html</title>
+   <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <h2>ordered list</h2>
+    <ol>
+        <li>monday</li>
+        <li>tuesday</li>
+        <li>wednesday</li>
+    </ol>
+    <h2>unordered list</h2>
+    <ul>
+        <li>thursday</li>
+        <li>friday</li>
+        <li>saturday</li>
+    </ul>
+    <h2>definition list</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language for web development</dd>
+    </dl>
+    <h2>Nested list</h2>
+    <ol>
+        <li>frontend language</li>
+            <li>HTML
+                <ul>
+                    <li>Elements</li>
+                    <li>Attributes</li>
+                </ul>
+            </li>
+            <li>CSS
+                <ul>
+                    <li>Selectors</li>
+                    <li>Properties</li>
+                </ul>
+            </li>
+            <li>JavaScript
+                <ul>
+                    <li>Variables</li>
+                    <li>Functions</li>
+                </ul>
+            </li>
+        </ol>
+        <li>backend language</li>
+        <ul>
+            <li>Python
+                <ul>
+                    <li>Data Types</li>
+                    <li>Control Structures</li>
+                </ul>
+            </li>
+            <li>Java
+                <ul>
+                    <li>Classes</li>
+                    <li>Inheritance</li>
+                </ul>
+            </li>
+            <li>C++
+                <ul>
+                    <li>Pointers</li>
+                    <li>Templates</li>
+                </ul>
+            </li>
+        </ul>
+    <h2>images</h2>    
+    <img src="https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg" width="300" height="200">
+    <h2>table</h2>
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Activity</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Work on HTML project</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Attend CSS workshop</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>JavaScript coding session</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Review project requirements</td>
+        </tr>
+    </table>
+    <h2>embedding Video</h2>
+    <video width="320" height="240" controls>
+        <source src="https://videos.pexels.com/video-files/30288571/12983896_2560_1440_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.  
+    </video>
+    <h2>forms</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br></br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br></br>
+        <label for="Age">Age:</label>   
+        <input type="number" id="age" name="age" min="1" max="100" required>
+        <br></br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required> <br></br>
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required>
+        <br></br>
+        <label for="Gender" >Gender</label>
+        <input type="radio" id="radio1" name="Gender" value="male">male <br></br>
+        <input type="radio" id="radio" name="Gender" value="female">female <br></br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br></br>
+        <input type="submit" value="Submit">
+
+</body>
+
+</html>
